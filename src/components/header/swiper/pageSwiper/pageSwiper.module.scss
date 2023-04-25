@@ -1,0 +1,41 @@
+.pageSwiper {
+  padding-top: 135px;
+  padding-bottom: 32px;
+  margin: 0 auto;
+
+  &__container {
+    background: url("../../../../images/2d 1.png") no-repeat;
+    box-sizing: content-box;
+    max-width: 1782px;
+    margin: 0 auto;
+  }
+  &__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    line-height: 230%;
+
+    &__text {
+      padding-top: 51px;
+      font-weight: 400;
+      font-size: 20px;
+    }
+    &__title {
+      font-weight: 400;
+      font-size: 40px;
+    }
+    &__swiper {
+      margin: 10px 0;
+      padding: 283px 300px;
+      background: #b3b3b3;
+    }
+    &__icon {
+      margin: 36px 0 78px 0;
+      display: flex;
+      gap: 27px;
+      padding: 0;
+    }
+  }
+}

@@ -1,0 +1,13 @@
+.navbar__menu {
+  display: flex;
+  align-items: center;
+  gap: 57px;
+  color: white;
+  font-size: 17px;
+
+  & li:last-child {
+    padding: 10px 74px;
+    border: 2px solid #8DB8DF;
+    border-radius: 6px;
+  }
+}
