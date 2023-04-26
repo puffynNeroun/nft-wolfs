@@ -1,0 +1,26 @@
+.cards__wrapper {
+  &__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__rewardText {
+    font-size: 24px;
+    line-height: 120%;
+    font-weight: 400;
+  }
+  &__title {
+    font-size: 60px;
+    line-height: 120%;
+    font-weight: 400;
+  }
+  &__description {
+    font-size: 23px;
+    line-height: 120%;
+    text-align: center;
+    padding-top: 40px;
+    font-weight: 400;
+  }
+}

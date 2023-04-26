@@ -1,16 +1,20 @@
 import React from 'react';
 import Navbar from "./navbar/Navbar.jsx";
-import styles from './header.module.scss';
 import PageSwiper from "./swiper/pageSwiper/PageSwiper.jsx";
 import {Container} from "react-bootstrap";
+import WolfCard from "./wolfCard/WolfCard.jsx";
+import Claws from "../claws/Claws.jsx";
 
 
 const Header = () => {
     return (
-        <header className={styles.header}>
+        <header>
             <Navbar/>
             <Container>
                 <PageSwiper/>
+                <Claws/>
+                <WolfCard/>
+                <Claws/>
             </Container>
         </header>
     );

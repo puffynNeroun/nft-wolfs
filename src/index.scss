@@ -39,8 +39,14 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
 
 //======================null style=====================
 
+ul {
+  padding: 0;
+  margin: 0;
+}
+
 .root {
-  background: url('images/bg_rework 1.png');
+  background: url('images/bg_rework 1.png') no-repeat;
+  background-size: cover;
 }
 
 .container {
