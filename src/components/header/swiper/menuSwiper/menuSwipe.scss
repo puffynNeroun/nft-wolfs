@@ -1,3 +1,15 @@
-.swiper {
-  width: 1000px;
+.static-image__img{
+  max-width: 100%;
+  display: none;
+  padding: 0 10px;
+}
+
+
+@media (max-width: 768px) {
+  .swiper {
+    display: none;
+  }
+  .static-image__img {
+    display: block;
+  }
 }

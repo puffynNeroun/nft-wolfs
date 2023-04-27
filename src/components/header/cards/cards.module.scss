@@ -12,3 +12,20 @@
   max-width: 1147px;
   margin: 0 auto;
 }
+
+@media (max-width: 560px) {
+  .card__section {
+    background: rgba(174, 219, 247, 0.57);
+    backdrop-filter: blur(50px);
+    padding: 46px 0 46px 0;
+  }
+
+  .card__wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1147px;
+    margin: 0 auto;
+  }
+}

@@ -36,7 +36,7 @@
   padding: 20px 50px;
   margin: 10px 0;
   position: absolute;
-  top: 95px;
+  top: 79px;
   right: 0;
   width: 50%;
   z-index: 3;
@@ -55,5 +55,27 @@
   }
   .burger__main__button {
     display: flex;
+  }
+}
+
+@media (max-width: 460px) {
+  .burger__main__button {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 30px;
+    height: 30px;
+    background: transparent;
+    position: relative;
+    overflow-x: hidden;
+
+    &__style {
+      display: flex;
+      width: 40px;
+      height: 2px;
+      background: #fff;
+      border-radius: 135px;
+    }
   }
 }

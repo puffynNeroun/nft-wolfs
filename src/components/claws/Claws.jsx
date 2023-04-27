@@ -5,7 +5,7 @@ import claws from '../../images/claws.png'
 const Claws = () => {
     return (
         <div className={styles.claws}>
-            <img src={claws} alt=""/>
+            <img className={styles.claws__img} src={claws} alt=""/>
         </div>
     );
 };

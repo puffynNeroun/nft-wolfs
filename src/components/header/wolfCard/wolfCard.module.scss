@@ -5,3 +5,15 @@
   max-width: 1782px;
   margin: 0 auto;
 }
+
+@media (max-width: 460px) {
+  .wolf__card__img {
+    width: 200px;
+  }
+}
+
+@media (max-width: 380px) {
+  .wolf__card__img {
+    width: 300px;
+  }
+}

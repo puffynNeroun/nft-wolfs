@@ -3,3 +3,9 @@
   justify-content: center;
   padding: 40px 0;
 }
+
+@media (max-width: 600px) {
+  .claws__img{
+    width: 50px;
+  }
+}

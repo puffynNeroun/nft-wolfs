@@ -8,7 +8,7 @@ const WolfCard = () => {
         <div className={styles.wolf__card__wrapper}>
             {cards.map((card) =>
                 <div key={card.key}>
-                    <img src={card.image} alt=""/>
+                    <img className={styles.wolf__card__img} src={card.image} alt=""/>
                 </div>
             )}
         </div>
