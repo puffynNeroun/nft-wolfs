@@ -1,0 +1,33 @@
+.team__header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 43px;
+
+  &__text {
+    font-size: 58px;
+    line-height: 150%;
+  }
+  &__title {
+    font-size: 60px;
+  }
+}
+
+@media (max-width: 576px) {
+  .team__header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 43px;
+
+    &__text {
+      font-size: 25px;
+      line-height: 150%;
+    }
+    &__title {
+      font-size: 30px;
+    }
+  }
+}

@@ -1,6 +1,7 @@
 import './App.css'
 import Header from "./components/header/Header.jsx";
 import Cards from "./components/header/cards/Cards.jsx";
+import TeamsSection from "./components/teamsSection/TeamsSection.jsx";
 
 
 
@@ -9,6 +10,7 @@ function App() {
         <div className="root">
             <Header />
             <Cards />
+            <TeamsSection/>
         </div>
     )
 }
